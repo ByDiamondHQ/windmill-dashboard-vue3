@@ -2,7 +2,7 @@
 
 This is a Vue 3 clone of [@estevanmaito](https://github.com/estevanmaito)'s [Windmill Dashboard](https://github.com/estevanmaito/windmill-dashboard).
 
-![](/vue3/public/cover.png)
+![](/public/cover.png)
 
 ## Pages
 
