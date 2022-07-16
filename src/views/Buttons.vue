@@ -62,6 +62,7 @@ const buttons = ref([
   },
 ])
 
+// @ts-ignore
 function setButtonToLoading(index) {
   buttons.value[index].active = !buttons.value[index].active
   setTimeout(() => {
