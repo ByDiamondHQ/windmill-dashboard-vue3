@@ -193,9 +193,11 @@ function toggleNotificationsMenu() {
   isNotificationsMenuOpen.value = !isNotificationsMenuOpen.value;
 }
 
-function searchShortcut(e) {
+function searchShortcut(e: KeyboardEvent) {
   if (e.key === "k" && (e.ctrlKey || e.metaKey)) {
     e.preventDefault()
+
+    // @ts-ignore
     search.value.focus()
   }
 }
